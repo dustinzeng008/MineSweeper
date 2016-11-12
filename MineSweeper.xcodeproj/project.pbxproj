@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042DED731DD58BE4005646A7 /* UIButton+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 042DED721DD58BE4005646A7 /* UIButton+Property.m */; };
 		04EA13161DD441C90077E668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA13151DD441C90077E668 /* main.m */; };
 		04EA13191DD441C90077E668 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA13181DD441C90077E668 /* AppDelegate.m */; };
-		04EA131C1DD441C90077E668 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA131B1DD441C90077E668 /* ViewController.m */; };
-		04EA131F1DD441CA0077E668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA131D1DD441CA0077E668 /* Main.storyboard */; };
 		04EA13211DD441CA0077E668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EA13201DD441CA0077E668 /* Assets.xcassets */; };
 		04EA13241DD441CA0077E668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA13221DD441CA0077E668 /* LaunchScreen.storyboard */; };
 		04EA132F1DD441CA0077E668 /* MineSweeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA132E1DD441CA0077E668 /* MineSweeperTests.m */; };
 		04EA133A1DD441CA0077E668 /* MineSweeperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA13391DD441CA0077E668 /* MineSweeperUITests.m */; };
+		04EA13491DD443C00077E668 /* YZMineSweeperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA13481DD443C00077E668 /* YZMineSweeperViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042DED711DD58BE4005646A7 /* UIButton+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Property.h"; path = "../UIButton+Property.h"; sourceTree = "<group>"; };
+		042DED721DD58BE4005646A7 /* UIButton+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Property.m"; path = "../UIButton+Property.m"; sourceTree = "<group>"; };
 		04EA13111DD441C90077E668 /* MineSweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EA13151DD441C90077E668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04EA13171DD441C90077E668 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04EA13181DD441C90077E668 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04EA131A1DD441C90077E668 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04EA131B1DD441C90077E668 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04EA131E1DD441CA0077E668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04EA13201DD441CA0077E668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04EA13231DD441CA0077E668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04EA13251DD441CA0077E668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,8 @@
 		04EA13351DD441CA0077E668 /* MineSweeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EA13391DD441CA0077E668 /* MineSweeperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineSweeperUITests.m; sourceTree = "<group>"; };
 		04EA133B1DD441CA0077E668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA13471DD443C00077E668 /* YZMineSweeperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZMineSweeperViewController.h; sourceTree = "<group>"; };
+		04EA13481DD443C00077E668 /* YZMineSweeperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZMineSweeperViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +104,10 @@
 			children = (
 				04EA13171DD441C90077E668 /* AppDelegate.h */,
 				04EA13181DD441C90077E668 /* AppDelegate.m */,
-				04EA131A1DD441C90077E668 /* ViewController.h */,
-				04EA131B1DD441C90077E668 /* ViewController.m */,
-				04EA131D1DD441CA0077E668 /* Main.storyboard */,
+				042DED711DD58BE4005646A7 /* UIButton+Property.h */,
+				042DED721DD58BE4005646A7 /* UIButton+Property.m */,
+				04EA13471DD443C00077E668 /* YZMineSweeperViewController.h */,
+				04EA13481DD443C00077E668 /* YZMineSweeperViewController.m */,
 				04EA13201DD441CA0077E668 /* Assets.xcassets */,
 				04EA13221DD441CA0077E668 /* LaunchScreen.storyboard */,
 				04EA13251DD441CA0077E668 /* Info.plist */,
@@ -202,6 +204,7 @@
 		04EA13091DD441C90077E668 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YZ;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Yong Zeng";
 				TargetAttributes = {
@@ -245,7 +248,6 @@
 			files = (
 				04EA13241DD441CA0077E668 /* LaunchScreen.storyboard in Resources */,
 				04EA13211DD441CA0077E668 /* Assets.xcassets in Resources */,
-				04EA131F1DD441CA0077E668 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EA131C1DD441C90077E668 /* ViewController.m in Sources */,
+				042DED731DD58BE4005646A7 /* UIButton+Property.m in Sources */,
+				04EA13491DD443C00077E668 /* YZMineSweeperViewController.m in Sources */,
 				04EA13191DD441C90077E668 /* AppDelegate.m in Sources */,
 				04EA13161DD441C90077E668 /* main.m in Sources */,
 			);
@@ -308,14 +311,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04EA131D1DD441CA0077E668 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04EA131E1DD441CA0077E668 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04EA13221DD441CA0077E668 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -498,6 +493,7 @@
 				04EA13401DD441CA0077E668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EA13411DD441CA0077E668 /* Build configuration list for PBXNativeTarget "MineSweeperTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +502,7 @@
 				04EA13431DD441CA0077E668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EA13441DD441CA0077E668 /* Build configuration list for PBXNativeTarget "MineSweeperUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +511,7 @@
 				04EA13461DD441CA0077E668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIButton (Property)
-
+@property (nonatomic, strong) NSNumber* status;
 @end

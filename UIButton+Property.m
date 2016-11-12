@@ -7,7 +7,18 @@
 //
 
 #import "UIButton+Property.h"
+#import <objc/runtime.h>
 
 @implementation UIButton (Property)
+
+- (NSNumber *)status{
+    id data = objc_getAssociatedObject(self, "Property");
+    return data;
+}
+
+- (void)setStatus:(NSNumber *)status{
+    objc_setAssociatedObject(self, "Property", status,
+                             OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
 
 @end
