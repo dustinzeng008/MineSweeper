@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIButton+Property.h
 //  MineSweeper
 //
 //  Created by Yong Zeng on 11/10/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface UIButton (Property)
 
 @end
-
